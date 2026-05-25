@@ -1,0 +1,14 @@
+# Dataset is excluded to keep the repo lean. To reproduce, clone it into ./nottingham-dataset:
+#   git clone --depth 1 https://github.com/jukedeck/nottingham-dataset.git
+nottingham-dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# caches / scratch
+parsed.pkl
+
+# macOS
+.DS_Store
